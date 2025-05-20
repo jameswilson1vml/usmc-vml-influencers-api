@@ -19,7 +19,7 @@ public class InfluencerEntity {
     private UUID id;
     private String hash;
     @Column(name = "fk_personId")
-    private String fkPersonId;
+    private UUID fkPersonId;
     private String occupation;
     private String type;
     private String Interests;
